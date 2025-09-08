@@ -51,3 +51,4 @@ Troubleshooting:
 
 Screenshots:
 
+![image alt](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/af3594c4c3cc9c1950cf79163750feed7a114b97/Screenshots/intro.png)
