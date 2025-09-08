@@ -56,3 +56,10 @@ Screenshots:
 ![image alt](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/f3e692643beb24eb6f8d80064dd4f29b901fd0fb/Screenshots/difficulty.png)
 
 ![image alt](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/f3e692643beb24eb6f8d80064dd4f29b901fd0fb/Screenshots/result.png)
+
+## ⚙️ Technologies Used
+
+- **Python** – Core programming language.
+- **Tkinter** – GUI framework.
+
+**Feel free to contribute and enhance the project! 🚀**
