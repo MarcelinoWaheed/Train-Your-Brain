@@ -68,7 +68,7 @@ python src/show_db.py
 
 | Intro | Difficulty Selection |
 |:---:|:---:|
-| ![Intro](Screenshots/intro.png) | ![Difficulty](Screenshots/difficulty.png) |
+| ![Intro](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/203c4a82c11f97a2379ee20b9cba8853e8a29264/Screenshots/Intro.png) | ![Difficulty](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/203c4a82c11f97a2379ee20b9cba8853e8a29264/Screenshots/Difficulty.png) |
 
 | Player Stats | Correct Result |
 |:---:|:---:|
@@ -86,5 +86,6 @@ python src/show_db.py
 
 ---
 **Feel free to contribute and enhance the project! 🚀**
+
 
 
