@@ -72,11 +72,11 @@ python src/show_db.py
 
 | Player Stats | Correct Result |
 |:---:|:---:|
-| ![Stats](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/7ef06f31cbb0bd51bab9498b5aeb77e00cf04010/Screenshots/Player%20Details.png) | ![Correct](Screenshots/result_correct.png) |
+| ![Stats](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/7ef06f31cbb0bd51bab9498b5aeb77e00cf04010/Screenshots/Player%20Details.png) | ![Correct](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/c8e7c0eaf504bdd833948b22b74b69f194c40ffc/Screenshots/Result%20for%20correct%20answer.png) |
 
 | Wrong Result |
 |:---:|
-| ![Wrong](Screenshots/result_wrong.png) |
+| ![Wrong](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/c8e7c0eaf504bdd833948b22b74b69f194c40ffc/Screenshots/Result%20for%20wrong%20answer.png) |
 
 ## ⚙️ Technologies Used
 
@@ -86,4 +86,5 @@ python src/show_db.py
 
 ---
 **Feel free to contribute and enhance the project! 🚀**
+
 
