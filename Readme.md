@@ -1,65 +1,88 @@
-# Train Your Brain: Bit by Bit
+# Train Your Brain: Bit by Bit 🧠
 
-A tiny Tkinter memory game: a number flashes briefly—type it before time runs out. Your best streak is saved to `highscore.txt`.
+A dynamic Tkinter memory game designed to test and improve your short-term memory. A number flashes briefly—type it before the time runs out! Now featuring player profiles, statistics, and multiple difficulty levels.
 
-Features:
+## ✨ Features
 
-- Clean Tkinter UI with difficulty levels (3/5/7 digits)
-- Countdown timer and instant feedback
-- Persistent high score stored locally
+- **Multiple Difficulty Levels:**
+  - 🟢 Easy (3 digits)
+  - 🟡 Medium (5 digits)
+  - 🔴 Hard (7 digits)
+- **Player Profiles:** Create your own profile and track your progress.
+- **Detailed Statistics:** View your accuracy, total games played, and performance breakdown by difficulty.
+- **Interactive UI:** Clean Tkinter interface with visual feedback.
+- **Persistent Storage:** Saves player data and high scores locally to `player_data.json`.
 
-How to play:
+## 🎮 How to play
 
-1. Click Start → pick a difficulty.
-2. Memorize the shown number. It disappears quickly.
-3. Type the number before the timer ends. Earn a point for each correct round.
+1. **Start:** Run the game and enter your name (defaults to "Player 1").
+2. **Choose Difficulty:** Select between Easy, Medium, or Hard.
+3. **Memorize:** A number will appear briefly on the screen.
+4. **Type:** Enter the number correctly before the timer runs out.
+5. **Track:** Check "My Profile" to see your stats.
 
-Project structure:
+## 📂 Project Structure
 
-```
+```text
 .
-├─ main.py         # App entry point
-├─ game.py         # Game logic + Tkinter screens
-├─ ui.py           # UI helpers (hover effects, etc.)
-├─ storage.py      # Load/save high score
-├─ constants.py    # Shared constants (optional)
-└─ highscore.txt   # Highest score (plain text)
+├─ src/
+│  ├─ main.py         # App entry point
+│  ├─ game.py         # Game logic & Screens management
+│  ├─ ui.py           # UI components & styling
+│  ├─ storage.py      # Data management (Load/Save JSON)
+│  ├─ constants.py    # Configuration & Asset paths
+│  └─ show_db.py      # Utility script to view saved data
+├─ Screenshots/       # Images for README
+│  ├─ intro.png
+│  ├─ difficulty.png
+│  ├─ player_details.png
+│  ├─ result_correct.png
+│  └─ result_wrong.png
+└─ player_data.json   # Stores player stats (Auto-generated)
 ```
 
-Requirements:
+## 🛠️ Requirements
 
-- Python 3.10+ (Tkinter ships with the official installer on Windows/macOS)
-- No external packages
+- **Python 3.10+** (Tkinter usually ships with the official installer)
+- No external packages required
 
-Run:
+## 🚀 Run the Game
 
-- Windows (PowerShell) or macOS/Linux (Terminal):
+**Windows / macOS / Linux:**
 
+Make sure you are in the project folder, then run:
+
+```bash
+python src/main.py
 ```
-python main.py
+
+## 🛠️ Utility: View Database
+
+If you want to check the saved data (JSON) directly in the terminal without opening the game:
+
+```bash
+python src/show_db.py
 ```
 
-Tips:
+## 📸 Screenshots
 
-- Reset high score: clear or delete `highscore.txt` (it will be recreated).
-- Single-file version: run with `python <filename>.py`.
+| Intro | Difficulty Selection |
+|:---:|:---:|
+| ![Intro](Screenshots/intro.png) | ![Difficulty](Screenshots/difficulty.png) |
 
-Troubleshooting:
+| Player Stats | Correct Result |
+|:---:|:---:|
+| ![Stats](Screenshots/player_details.png) | ![Correct](Screenshots/result_correct.png) |
 
-- "tkinter not found": ensure you installed the official Python from python.org. On Linux, install Tk packages (e.g., `sudo apt install python3-tk`).
-- Multiple Python versions: try `python3 main.py`.
-
-Screenshots:
-
-![image alt](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/af3594c4c3cc9c1950cf79163750feed7a114b97/Screenshots/intro.png)
-
-![image alt](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/f3e692643beb24eb6f8d80064dd4f29b901fd0fb/Screenshots/difficulty.png)
-
-![image alt](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/f3e692643beb24eb6f8d80064dd4f29b901fd0fb/Screenshots/result.png)
+| Wrong Result |
+|:---:|
+| ![Wrong](Screenshots/result_wrong.png) |
 
 ## ⚙️ Technologies Used
 
-- **Python** – Core programming language.
-- **Tkinter** – GUI framework.
+- **Python** – Core logic.
+- **Tkinter** – GUI Framework.
+- **JSON** – Data persistence.
 
+---
 **Feel free to contribute and enhance the project! 🚀**
