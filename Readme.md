@@ -72,7 +72,7 @@ python src/show_db.py
 
 | Player Stats | Correct Result |
 |:---:|:---:|
-| ![Stats](Screenshots/player_details.png) | ![Correct](Screenshots/result_correct.png) |
+| ![Stats](https://github.com/MarcelinoWaheed/Train-Your-Brain/blob/7ef06f31cbb0bd51bab9498b5aeb77e00cf04010/Screenshots/Player%20Details.png) | ![Correct](Screenshots/result_correct.png) |
 
 | Wrong Result |
 |:---:|
@@ -86,3 +86,4 @@ python src/show_db.py
 
 ---
 **Feel free to contribute and enhance the project! 🚀**
+
